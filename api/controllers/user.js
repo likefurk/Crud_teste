@@ -15,7 +15,7 @@ export const addUser =(req, res) => {
 
     const values = [
         req.body.name,
-        req.body.comapany,
+        req.body.company,
         req.body.cnpj,
         req.body.email,
         req.body.phone,
